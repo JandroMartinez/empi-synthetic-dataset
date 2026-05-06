@@ -1,0 +1,40 @@
+{
+  "title": "empi-synthetic-dataset: Generador de registros demográficos españoles sintéticos para la evaluación de sistemas EMPI",
+  "description": "Generador de datos sintéticos de registros demográficos españoles diseñado para la evaluación de sistemas Enterprise Master Patient Index (EMPI). Produce datasets con distribuciones estadísticas del INE (Padrón Municipal 2024, nombres y apellidos más frecuentes), taxonomía de errores controlada (tipográficos, variaciones de nombre, corrupciones de fecha y teléfono) y ground truth de duplicados para medir precisión, recall y F1-Score de algoritmos de record linkage. Incluye módulo de validación con Python Record Linkage Toolkit.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "language": "spa",
+  "creators": [
+    {
+      "name": "Martínez Gracia, Alejandro",
+      "affiliation": "Universidad Internacional Isabel I de Castilla",
+      "orcid": ""
+    }
+  ],
+  "keywords": [
+    "EMPI",
+    "Enterprise Master Patient Index",
+    "record linkage",
+    "datos sintéticos",
+    "demografía española",
+    "INE",
+    "deduplicación",
+    "salud",
+    "Python"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.21105/joss.01610",
+      "relation": "uses",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1080/01621459.1969.10501049",
+      "relation": "isCitedBy",
+      "scheme": "doi"
+    }
+  ],
+  "version": "1.0.0",
+  "notes": "Trabajo Fin de Máster en Big Data — Universidad Internacional Isabel I de Castilla, 2025. Datos demográficos generados sintéticamente a partir de estadísticas públicas del INE. No contiene datos personales reales."
+}

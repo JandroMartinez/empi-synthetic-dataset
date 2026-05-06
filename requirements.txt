@@ -1,0 +1,6 @@
+pandas>=2.2.0
+numpy>=1.26.4
+openpyxl>=3.1.2
+recordlinkage>=0.16
+jellyfish>=1.0.0
+pytest>=8.0.0

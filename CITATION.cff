@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "Si utilizas este software o dataset, por favor cítalo usando los metadatos de este fichero."
+type: software
+title: "empi-synthetic-dataset: Generador de registros demográficos españoles sintéticos con duplicados y errores para la evaluación de sistemas EMPI"
+abstract: >
+  Generador de datos sintéticos de registros demográficos españoles diseñado
+  para la evaluación de sistemas Enterprise Master Patient Index (EMPI).
+  Produce datasets con distribuciones estadísticas del INE, taxonomía de errores
+  controlada (tipográficos, variaciones de nombre, corrupciones de fecha y teléfono)
+  y ground truth de duplicados para medir precisión, recall y F1-Score de algoritmos
+  de record linkage.
+authors:
+  - family-names: "Martínez Gracia"
+    given-names: "Alejandro"
+    affiliation: "Universidad Internacional Isabel I de Castilla"
+    email: "jandro.martinezgracia@gmail.com"
+version: "1.0.0"
+date-released: "2025-05-06"
+license: MIT
+repository-code: "https://github.com/alejandromg/empi-synthetic-dataset"
+keywords:
+  - EMPI
+  - record linkage
+  - datos sintéticos
+  - demografía española
+  - INE
+  - salud
+  - deduplicación
+references:
+  - type: article
+    authors:
+      - family-names: "Fellegi"
+        given-names: "Ivan P."
+      - family-names: "Sunter"
+        given-names: "Alan B."
+    title: "A Theory for Record Linkage"
+    journal: "Journal of the American Statistical Association"
+    volume: 64
+    issue: 328
+    year: 1969
+    doi: "10.1080/01621459.1969.10501049"
+  - type: software
+    authors:
+      - family-names: "de Bruin"
+        given-names: "Jonathan"
+    title: "Python Record Linkage Toolkit"
+    year: 2019
+    doi: "10.21105/joss.01610"

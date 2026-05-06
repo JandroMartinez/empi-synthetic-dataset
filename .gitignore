@@ -1,0 +1,28 @@
+# Datos generados — no versionar en git (subir a Zenodo por separado)
+output/
+data/raw/*.csv
+data/raw/*.xls
+data/raw/*.xlsx
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Editores
+.DS_Store
+.idea/
+.vscode/
+*.swp
