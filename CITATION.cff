@@ -17,7 +17,7 @@ authors:
 version: "1.0.0"
 date-released: "2025-05-06"
 license: MIT
-repository-code: "https://github.com/alejandromg/empi-synthetic-dataset"
+repository-code: "https://github.com/JandroMartinez/empi-synthetic-dataset"
 keywords:
   - EMPI
   - record linkage

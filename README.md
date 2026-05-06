@@ -1,8 +1,11 @@
 # empi-synthetic-dataset
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Generador de un dataset sintético de registros demográficos españoles con duplicados y errores para la evaluación de sistemas EMPI.
 
-TFM — Máster en Big Data, Universidad Internacional Isabel I de Castilla  
+**TFM — Máster en Big Data, Universidad Internacional Isabel I de Castilla**  
+🔗 https://github.com/JandroMartinez/empi-synthetic-dataset  
 Autor: Alejandro Martínez Gracia · Tutor: Juan Manuel Pascual
 
 ---
