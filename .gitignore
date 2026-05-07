@@ -1,32 +1,99 @@
-# Datos generados — no versionar en git (subir a Zenodo por separado)
+# ──────────────────────────────────────────────
+# Datos generados — subir a Zenodo por separado
+# ──────────────────────────────────────────────
 output/
 data/raw/*.csv
 data/raw/*.xls
 data/raw/*.xlsx
+data/raw/*.json
+data/raw/*.parquet
+data/raw/*.zip
+data/raw/*.gz
 data/processed/
 
+# ──────────────────────────────────────────────
 # Python
+# ──────────────────────────────────────────────
 __pycache__/
 *.py[cod]
+*.pyd
+*.so
+*.egg
 *.egg-info/
 .eggs/
 dist/
 build/
+MANIFEST
 .pytest_cache/
 .coverage
+.coverage.*
+coverage.xml
+*.cover
 htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.python-version
+pip-log.txt
 
+# ──────────────────────────────────────────────
+# Jupyter
+# ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ──────────────────────────────────────────────
 # Entornos virtuales
+# ──────────────────────────────────────────────
 venv/
 .venv/
 env/
+env.bak/
+venv.bak/
 
-# Editores
+# ──────────────────────────────────────────────
+# Secretos y configuración local
+# ──────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+
+# ──────────────────────────────────────────────
+# Logs
+# ──────────────────────────────────────────────
+*.log
+logs/
+
+# ──────────────────────────────────────────────
+# macOS
+# ──────────────────────────────────────────────
 .DS_Store
+**/.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ──────────────────────────────────────────────
+# Windows
+# ──────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ──────────────────────────────────────────────
+# Editores
+# ──────────────────────────────────────────────
 .idea/
 .vscode/
 *.swp
+*.swo
+*~
 
+# ──────────────────────────────────────────────
 # R
+# ──────────────────────────────────────────────
 .Rhistory
 .RData
