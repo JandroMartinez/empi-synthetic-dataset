@@ -18,6 +18,7 @@ version: "1.0.0"
 date-released: "2025-05-06"
 license: MIT
 repository-code: "https://github.com/JandroMartinez/empi-synthetic-dataset"
+doi: "10.5281/zenodo.20066937"
 keywords:
   - EMPI
   - record linkage

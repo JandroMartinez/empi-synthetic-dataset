@@ -5,7 +5,8 @@
 Generador de un dataset sintético de registros demográficos españoles con duplicados y errores para la evaluación de sistemas EMPI.
 
 **TFM — Máster en Big Data, Universidad Internacional Isabel I de Castilla**  
-🔗 https://github.com/JandroMartinez/empi-synthetic-dataset  
+🔗 https://github.com/JandroMartinez/empi-synthetic-dataset
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20066937.svg)](https://doi.org/10.5281/zenodo.20066937)  
 Autor: Alejandro Martínez Gracia · Tutor: Juan Manuel Pascual
 
 ---
